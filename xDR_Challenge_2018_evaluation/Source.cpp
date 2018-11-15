@@ -252,8 +252,8 @@ vector<vector<string>> EdEs_dif(string result_dname, vector<vector<string>> true
 					bool forklift_no_flag = FALSE;
 					for (int s = 1; s < true_data[PDR2VDR_WMS].size(); s++) {
 						vector<string> pdr2vdr_element = split(true_data[PDR2VDR_WMS][s], ',');
-						if (worker_no_test == pdr2vdr_element[3] || worker_no_test == pdr2vdr_element[4]) {
-							worker_no_test = pdr2vdr_element[2];
+						if (worker_no_test == pdr2vdr_element[2] || worker_no_test == pdr2vdr_element[3]) {
+							worker_no_test = pdr2vdr_element[1];
 							forklift_no_flag = TRUE;
 							break;
 						}
