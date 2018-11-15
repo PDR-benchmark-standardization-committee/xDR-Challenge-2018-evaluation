@@ -1,0 +1,42 @@
+﻿  Source.cpp
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(234): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(240): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(241): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(253): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(266): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(281): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(316): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(324): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(343): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(351): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(375): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(377): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(405): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(409): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(562): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(589): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(599): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(610): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(763): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(782): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(786): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(796): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(844): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(863): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(870): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(887): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(938): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(956): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(963): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(972): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(976): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(1021): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(1039): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(1046): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(1055): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(1068): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(1135): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(1156): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+c:\users\intern\documents\shimomura\xdr_challenge_2018\evaluation_pub_v2\xdr_challenge_2018_evaluation\xdr_challenge_2018_evaluation\source.cpp(1203): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  xDR_Challenge_2018_evaluation.vcxproj -> C:\Users\intern\Documents\shimomura\xDR_Challenge_2018\evaluation_pub_v2\xDR_Challenge_2018_evaluation\Debug\xDR_Challenge_2018_evaluation.exe
+  xDR_Challenge_2018_evaluation.vcxproj -> C:\Users\intern\Documents\shimomura\xDR_Challenge_2018\evaluation_pub_v2\xDR_Challenge_2018_evaluation\Debug\xDR_Challenge_2018_evaluation.pdb (Partial PDB)
