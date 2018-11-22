@@ -2,7 +2,7 @@
 Evaluation source code for xDR Challenge 2018  
 Using Visual Studio 2017  
   
-How to use the scripts:  
+How to use the scripts: 
 1. Download the script from Github.  
 2. Running \xDR_Challenge_2018_evaluation\Debug\xDR_Challenge_2018_evaluation.exe  
   
