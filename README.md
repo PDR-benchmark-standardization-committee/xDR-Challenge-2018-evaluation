@@ -6,7 +6,6 @@ How to use the scripts:
 1. Download the script from Github.  
 2. Running \xDR_Challenge_2018_evaluation\Debug\xDR_Challenge_2018_evaluation.exe  
   
-This code need "evaluation_material", "config.ini" and trajectory data.
   
 2018/11/22  
 Add "evaluation_material_demo", "config.ini" and "sample_team" data in Debug directory.  
