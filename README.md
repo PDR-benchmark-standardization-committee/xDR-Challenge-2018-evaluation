@@ -4,9 +4,7 @@ Using Visual Studio 2017
   
 How to use the scripts:
 1. Download the script.  
-2. Running \xDR_Challenge_2018_evaluation\Debug\xDR_Challenge_2018_evaluation.exe  
-  
-  
-2018/11/22  
-Add "evaluation_material_demo", "config.ini" and "sample_team" data in Debug directory.  
-Operating environment is now ready!
+2. Running \xDR_Challenge_2018_evaluation\Release\xDR_Challenge_2018_evaluation.exe  
+
+2018/11/28  
+Add Release mode!
