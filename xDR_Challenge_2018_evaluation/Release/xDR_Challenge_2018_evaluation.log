@@ -1,0 +1,44 @@
+﻿  Source.cpp
+Source.cpp(234): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(240): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+Source.cpp(241): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+Source.cpp(253): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(266): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(281): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(316): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(324): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(343): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(351): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(375): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(377): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(405): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(409): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(562): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(589): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(599): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(610): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(763): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(782): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(786): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(796): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(844): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(863): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(870): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(887): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(938): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(956): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(963): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(972): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(976): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(1021): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(1039): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(1046): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(1055): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(1068): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(1135): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(1156): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+Source.cpp(1203): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  コード生成しています。
+  All 577 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  xDR_Challenge_2018_evaluation.vcxproj -> C:\Users\intern\Documents\shimomura\xDR_Challenge_2018\evaluation_pub_v2\xDR-Challenge-2018-evaluation\Release\xDR_Challenge_2018_evaluation.exe
