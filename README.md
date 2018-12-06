@@ -17,4 +17,4 @@ Copyright (c) 2018 [Ryo Shimomura](https://github.com/ximomoi) and [PDR benchmar
 License-check is open source software under the [MIT license](https://github.com/PDR-benchmark-standardization-committee/xDR-Challenge-2018-evaluation/blob/master/LICENSE).  
 
 ## Reference
-[1]Ryosuke Ichikari, Ryo Shimomura, Masakatsu Kourogi, Takashi Okuma, Takeshi Kurata "Review of PDR Challenge in Warehouse Picking and Advancing to xDR Challenge" International Conference on Indoor Positioning and Indoor Navigation (IPIN), 24-27 Sept. 2018.  
+[1]Ryosuke Ichikari, Ryo Shimomura, Masakatsu Kourogi, Takashi Okuma, Takeshi Kurata "Review of PDR Challenge in Warehouse Picking and Advancing to xDR Challenge" Indoor Positioning and Indoor Navigation (IPIN), 24-27 Sept. 2018.  
