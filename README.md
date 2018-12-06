@@ -3,8 +3,8 @@ Evaluation source code for xDR Challenge 2018
 Using Visual Studio 2017  
 
 ## News
-2018/12/6
-Add licenses and references
+2018/12/6  
+Add licenses and references.  
 2018/11/28  
 Add Release mode!
 
