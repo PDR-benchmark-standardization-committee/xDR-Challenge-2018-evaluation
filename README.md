@@ -1,6 +1,7 @@
 # xDR Challenge 2018 evaluation tools
 Evaluation source code for xDR Challenge 2018  
 Using Visual Studio 2017  
+This version is 0.1.  
 
 ## News
 2018/12/6  
