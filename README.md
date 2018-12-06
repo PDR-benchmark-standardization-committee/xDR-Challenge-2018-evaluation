@@ -9,7 +9,7 @@ Add licenses and references.
 2018/11/28  
 Add Release mode!
 
-## How to use this tool
+## How to use
 1. Download the script.  
 2. Running \xDR_Challenge_2018_evaluation\Release\xDR_Challenge_2018_evaluation.exe  
 
