@@ -1,4 +1,4 @@
-# xDR Challenge 2018 evaluation tools
+# xDR Challenge 2018 evaluation tool
 Evaluation source code for xDR Challenge 2018  
 Using Visual Studio 2017  
 This version is 0.1.  
@@ -15,7 +15,7 @@ Add Release mode!
 
 ## License
 Copyright (c) 2018 [Ryo Shimomura](https://github.com/ximomoi) and [PDR benchmark standardization committee](https://unit.aist.go.jp/hiri/pdr-bmd/index.html).  
-License-check is open source software under the [MIT license](https://github.com/PDR-benchmark-standardization-committee/xDR-Challenge-2018-evaluation/blob/master/LICENSE).  
+xDR Challenge 2018 evaluation tool is open source software under the [MIT license](https://github.com/PDR-benchmark-standardization-committee/xDR-Challenge-2018-evaluation/blob/master/LICENSE).  
 
 ## Reference
 [1]Ryosuke Ichikari, Ryo Shimomura, Masakatsu Kourogi, Takashi Okuma, Takeshi Kurata "Review of PDR Challenge in Warehouse Picking and Advancing to xDR Challenge" Indoor Positioning and Indoor Navigation (IPIN), 24-27 Sept. 2018.  
