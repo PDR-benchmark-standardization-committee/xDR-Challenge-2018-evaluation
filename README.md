@@ -14,7 +14,7 @@ Add Release mode!
 2. Running \xDR_Challenge_2018_evaluation\Release\xDR_Challenge_2018_evaluation.exe  
 
 ## License
-Copyright (c) 2018 [Ryo Shimomura](https://github.com/ximomoi) and [PDR benchmark standardization committee](https://unit.aist.go.jp/hiri/pdr-bmd/index.html).  
+Copyright (c) 2018 [Ryo Shimomura](https://github.com/ximomoi) and [PDR benchmark standardization committee](https://ja-jp.facebook.com/pdr.bms/).  
 xDR Challenge 2018 evaluation tool is open source software under the [MIT license](https://github.com/PDR-benchmark-standardization-committee/xDR-Challenge-2018-evaluation/blob/master/LICENSE).  
 
 ## Reference
