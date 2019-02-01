@@ -432,11 +432,8 @@ vector<string> Ed(string result_dname, vector<vector<string>> EdEs_dif, string t
 			median = MAX_RANGE;
 		}
 		else {
-			sort(begin(error_data), end(error_data));
-			int median_index = error_data.size() / 2;
-			median = (error_data.size() % 2 == 0
-				? static_cast<double>(error_data[median_index] + error_data[median_index - 1]) / 2
-				: error_data[median_index]);
+			sort(error_data.begin(), error_data.end());
+			median = error_data[error_data.size() / 2];
 			score = -(100.0 / 29.0) * median + (3000.0 / 29.0);//score
 			if (score < 0.0) {
 				score = 0.0;
@@ -453,11 +450,8 @@ vector<string> Ed(string result_dname, vector<vector<string>> EdEs_dif, string t
 			median_not_bup = MAX_RANGE;
 		}
 		else {
-			sort(begin(error_data_not_bup), end(error_data_not_bup));
-			int median_index_not_bup = error_data_not_bup.size() / 2;
-			median_not_bup = (error_data_not_bup.size() % 2 == 0
-				? static_cast<double>(error_data_not_bup[median_index_not_bup] + error_data_not_bup[median_index_not_bup - 1]) / 2
-				: error_data_not_bup[median_index_not_bup]);
+			sort(error_data_not_bup.begin(), error_data_not_bup.end());
+			median_not_bup = error_data_not_bup[error_data_not_bup.size() / 2];
 			score_not_bup = -(100.0 / 29.0) * median_not_bup + (3000.0 / 29.0);//Not_BUP score
 			if (score_not_bup < 0.0) {
 				score_not_bup = 0.0;
@@ -474,11 +468,8 @@ vector<string> Ed(string result_dname, vector<vector<string>> EdEs_dif, string t
 			median_bup = MAX_RANGE;
 		}
 		else {
-			sort(begin(error_data_bup), end(error_data_bup));
-			int median_index_bup = error_data_bup.size() / 2;
-			median_bup = (error_data_bup.size() % 2 == 0
-				? static_cast<double>(error_data_bup[median_index_bup] + error_data_bup[median_index_bup - 1]) / 2
-				: error_data_bup[median_index_bup]);
+			sort(error_data_bup.begin(), error_data_bup.end());
+			median_bup = error_data_bup[error_data_bup.size() / 2];
 			score_bup = -(100.0 / 29.0) * median_bup + (3000.0 / 29.0);//BUP score
 			if (score_bup < 0.0) {
 				score_bup = 0.0;
@@ -517,48 +508,29 @@ vector<string> Ed(string result_dname, vector<vector<string>> EdEs_dif, string t
 	string score_str = "score_median_ave," + to_string(score_ave) + "," + to_string(median_ave) + "," + to_string(score_not_bup_ave) + "," + to_string(median_not_bup_ave) + "," + to_string(score_bup_ave) + "," + to_string(median_bup_ave);
 	score_data.push_back(score_str);
 
-	sort(begin(median_median), end(median_median));
-	int median_index = median_median.size() / 2;
-	double err_median = (median_median.size() % 2 == 0
-		? static_cast<double>(median_median[median_index] + median_median[median_index - 1]) / 2
-		: median_median[median_index]);
+	sort(median_median.begin(), median_median.end());
+	double err_median = median_median[median_median.size() / 2];
 
-	sort(begin(score_median), end(score_median));
-	median_index = score_median.size() / 2;
-	double sco_median = (score_median.size() % 2 == 0
-		? static_cast<double>(score_median[median_index] + score_median[median_index - 1]) / 2
-		: score_median[median_index]);
+	sort(score_median.begin(), score_median.end());
+	double sco_median = score_median[score_median.size() / 2];
 
-	sort(begin(median_not_bup_median), end(median_not_bup_median));
-	median_index = median_not_bup_median.size() / 2;
-	double err_not_bup_median = (median_not_bup_median.size() % 2 == 0
-		? static_cast<double>(median_not_bup_median[median_index] + median_not_bup_median[median_index - 1]) / 2
-		: median_not_bup_median[median_index]);
+	sort(median_not_bup_median.begin(), median_not_bup_median.end());
+	double err_not_bup_median = median_not_bup_median[median_not_bup_median.size() / 2];
 
-	sort(begin(score_not_bup_median), end(score_not_bup_median));
-	median_index = score_not_bup_median.size() / 2;
-	double sco_not_bup_median = (score_not_bup_median.size() % 2 == 0
-		? static_cast<double>(score_not_bup_median[median_index] + score_not_bup_median[median_index - 1]) / 2
-		: score_not_bup_median[median_index]);
+	sort(score_not_bup_median.begin(), score_not_bup_median.end());
+	double sco_not_bup_median = score_not_bup_median[score_not_bup_median.size() / 2];
 
-	sort(begin(median_bup_median), end(median_bup_median));
-	median_index = median_bup_median.size() / 2;
-	double err_bup_median = (median_bup_median.size() % 2 == 0
-		? static_cast<double>(median_bup_median[median_index] + median_bup_median[median_index - 1]) / 2
-		: median_bup_median[median_index]);
+	sort(median_bup_median.begin(), median_bup_median.end());
+	double err_bup_median = median_bup_median[median_bup_median.size() / 2];
 
-	sort(begin(score_bup_median), end(score_bup_median));
-	median_index = score_bup_median.size() / 2;
-	double sco_bup_median = (score_bup_median.size() % 2 == 0
-		? static_cast<double>(score_bup_median[median_index] + score_bup_median[median_index - 1]) / 2
-		: score_bup_median[median_index]);
+	sort(score_bup_median.begin(), score_bup_median.end());
+	double sco_bup_median = score_bup_median[score_bup_median.size() / 2];
 
 	score_str = "score_median_median," + to_string(sco_median) + "," + to_string(err_median) + "," + to_string(sco_not_bup_median) + "," + to_string(err_not_bup_median) + "," + to_string(sco_bup_median) + "," + to_string(err_bup_median);
 	score_data.push_back(score_str);
 
-
-
 	ofstream ofs(".\\" + tra_dir + result_dname + "\\Ed_score.csv");
+	ofs << "name,score_all_section,error_all_section,score_not_BUP_section,error_not_BUP_section,score_BUP_section,error_BUP_section" << endl;
 	for (int i = 0; i < score_data.size(); i++) {
 		ofs << score_data[i] << endl;
 	}
@@ -596,6 +568,8 @@ vector<string> Es(string result_dname, vector<vector<string>> EdEs_dif, vector<v
 		string dif_worker_no = EdEs_dif[i][0].substr(4, 2);
 		string dif_date = EdEs_dif[i][0].substr(7, 8);
 
+		ofstream ofs_m_s(".\\" + tra_dir + result_dname + "\\" + EdEs_dif[i][0].substr(0, 24) + "_error_m_s.csv");
+		ofs_m_s << "error_m_s,error_m,dif_time_min,BUP_T/F,unixtime" << endl;
 		for (int j = 1; j < EdEs_dif[i].size(); j++) {
 			vector<string> dif_element = split(EdEs_dif[i][j], ',');
 			double error_m = stod(dif_element[7]);
@@ -628,6 +602,7 @@ vector<string> Es(string result_dname, vector<vector<string>> EdEs_dif, vector<v
 						}
 
 						error_m_s_data.push_back(error_m_s);
+						ofs_m_s << to_string(error_m_s) + "," + to_string(error_m) + "," + to_string(dif_time_min) + "," + dif_element[8] + "," + dif_element[5] << endl;
 					}
 
 					break;
@@ -643,10 +618,8 @@ vector<string> Es(string result_dname, vector<vector<string>> EdEs_dif, vector<v
 			median = MAX_RANGE;
 		}
 		else {
-			int median_index = error_m_s_data.size() / 2;
-			median = (error_m_s_data.size() % 2 == 0
-				? static_cast<double>(error_m_s_data[median_index] + error_m_s_data[median_index - 1]) / 2
-				: error_m_s_data[median_index]);
+			sort(error_m_s_data.begin(), error_m_s_data.end());
+			median = error_m_s_data[error_m_s_data.size() / 2];
 		}
 
 		double median_not_bup;
@@ -654,10 +627,8 @@ vector<string> Es(string result_dname, vector<vector<string>> EdEs_dif, vector<v
 			median_not_bup = MAX_RANGE;
 		}
 		else {
-			int median_index_not_bup = error_m_s_data_not_bup.size() / 2;
-			median_not_bup = (error_m_s_data_not_bup.size() % 2 == 0
-				? static_cast<double>(error_m_s_data_not_bup[median_index_not_bup] + error_m_s_data_not_bup[median_index_not_bup - 1]) / 2
-				: error_m_s_data_not_bup[median_index_not_bup]);
+			sort(error_m_s_data_not_bup.begin(), error_m_s_data_not_bup.end());
+			median_not_bup = error_m_s_data_not_bup[error_m_s_data_not_bup.size() / 2];
 		}
 
 		double median_bup;
@@ -665,10 +636,8 @@ vector<string> Es(string result_dname, vector<vector<string>> EdEs_dif, vector<v
 			median_bup = MAX_RANGE;
 		}
 		else {
-			int median_index_bup = error_m_s_data_bup.size() / 2;
-			median_bup = (error_m_s_data_bup.size() % 2 == 0
-				? static_cast<double>(error_m_s_data_bup[median_index_bup] + error_m_s_data_bup[median_index_bup - 1]) / 2
-				: error_m_s_data_bup[median_index_bup]);
+			sort(error_m_s_data_bup.begin(), error_m_s_data_bup.end());
+			median_bup = error_m_s_data_bup[error_m_s_data_bup.size() / 2];
 		}
 
 		double score = -(100.0 / 1.95) * median + (200.0 / 1.95);//score
@@ -720,46 +689,29 @@ vector<string> Es(string result_dname, vector<vector<string>> EdEs_dif, vector<v
 	string score_str = "score_median_ave," + to_string(score_ave) + "," + to_string(median_ave) + "," + to_string(score_not_bup_ave) + "," + to_string(median_not_bup_ave) + "," + to_string(score_bup_ave) + "," + to_string(median_bup_ave);
 	score_data.push_back(score_str);
 
-	sort(begin(median_median), end(median_median));
-	int median_index = median_median.size() / 2;
-	double err_median = (median_median.size() % 2 == 0
-		? static_cast<double>(median_median[median_index] + median_median[median_index - 1]) / 2
-		: median_median[median_index]);
+	sort(median_median.begin(), median_median.end());
+	double err_median = median_median[median_median.size() / 2];
 
-	sort(begin(score_median), end(score_median));
-	median_index = score_median.size() / 2;
-	double sco_median = (score_median.size() % 2 == 0
-		? static_cast<double>(score_median[median_index] + score_median[median_index - 1]) / 2
-		: score_median[median_index]);
+	sort(score_median.begin(), score_median.end());
+	double sco_median = score_median[score_median.size() / 2];
 
-	sort(begin(median_not_bup_median), end(median_not_bup_median));
-	median_index = median_not_bup_median.size() / 2;
-	double err_not_bup_median = (median_not_bup_median.size() % 2 == 0
-		? static_cast<double>(median_not_bup_median[median_index] + median_not_bup_median[median_index - 1]) / 2
-		: median_not_bup_median[median_index]);
+	sort(median_not_bup_median.begin(), median_not_bup_median.end());
+	double err_not_bup_median = median_not_bup_median[median_not_bup_median.size() / 2];
 
-	sort(begin(score_not_bup_median), end(score_not_bup_median));
-	median_index = score_not_bup_median.size() / 2;
-	double sco_not_bup_median = (score_not_bup_median.size() % 2 == 0
-		? static_cast<double>(score_not_bup_median[median_index] + score_not_bup_median[median_index - 1]) / 2
-		: score_not_bup_median[median_index]);
+	sort(score_not_bup_median.begin(), score_not_bup_median.end());
+	double sco_not_bup_median = score_not_bup_median[score_not_bup_median.size() / 2];
 
-	sort(begin(median_bup_median), end(median_bup_median));
-	median_index = median_bup_median.size() / 2;
-	double err_bup_median = (median_bup_median.size() % 2 == 0
-		? static_cast<double>(median_bup_median[median_index] + median_bup_median[median_index - 1]) / 2
-		: median_bup_median[median_index]);
+	sort(median_bup_median.begin(), median_bup_median.end());
+	double err_bup_median = median_bup_median[median_bup_median.size() / 2];
 
-	sort(begin(score_bup_median), end(score_bup_median));
-	median_index = score_bup_median.size() / 2;
-	double sco_bup_median = (score_bup_median.size() % 2 == 0
-		? static_cast<double>(score_bup_median[median_index] + score_bup_median[median_index - 1]) / 2
-		: score_bup_median[median_index]);
+	sort(score_bup_median.begin(), score_bup_median.end());
+	double sco_bup_median = score_bup_median[score_bup_median.size() / 2];
 
 	score_str = "score_median_median," + to_string(sco_median) + "," + to_string(err_median) + "," + to_string(sco_not_bup_median) + "," + to_string(err_not_bup_median) + "," + to_string(sco_bup_median) + "," + to_string(err_bup_median);
 	score_data.push_back(score_str);
 
 	ofstream ofs(".\\" + tra_dir + result_dname + "\\Es_score.csv");
+	ofs << "name,score_all_section,error_all_section,score_not_BUP_section,error_not_BUP_section,score_BUP_section,error_BUP_section" << endl;
 	for (int i = 0; i < score_data.size(); i++) {
 		ofs << score_data[i] << endl;
 	}
@@ -831,16 +783,14 @@ vector<string> Ep(string result_dname, vector<vector<string>> tra_data, vector<v
 	string score_str = "score_ave," + to_string(score_ave);
 	score_data.push_back(score_str);
 
-	sort(begin(score_median), end(score_median));
-	int median_index = score_median.size() / 2;
-	double median = (score_median.size() % 2 == 0
-		? static_cast<double>(score_median[median_index] + score_median[median_index - 1]) / 2
-		: score_median[median_index]);
+	sort(score_median.begin(), score_median.end());
+	double median = score_median[score_median.size() / 2];
 	score_str = "score_median," + to_string(median);
 	score_data.push_back(score_str);
 
 
 	ofstream ofs(".\\" + tra_dir + result_dname + "\\Ep_score.csv");
+	ofs << "name,score" << endl;
 	for (int i = 0; i < score_data.size(); i++) {
 		ofs << score_data[i] << endl;
 	}
@@ -925,16 +875,14 @@ vector<string> Ev(string result_dname, vector<vector<string>> tra_data, vector<v
 	string score_str = "score_ave," + to_string(score_ave);
 	score_data.push_back(score_str);
 
-	sort(begin(score_median), end(score_median));
-	int median_index = score_median.size() / 2;
-	double median = (score_median.size() % 2 == 0
-		? static_cast<double>(score_median[median_index] + score_median[median_index - 1]) / 2
-		: score_median[median_index]);
+	sort(score_median.begin(), score_median.end());
+	double median = score_median[score_median.size() / 2];
 	score_str = "score_median," + to_string(median);
 	score_data.push_back(score_str);
 
 
 	ofstream ofs(".\\" + tra_dir + result_dname + "\\Ev_score.csv");
+	ofs << "name,score" << endl;
 	for (int i = 0; i < score_data.size(); i++) {
 		ofs << score_data[i] << endl;
 	}
@@ -1008,16 +956,14 @@ vector<string> Eo(string result_dname, vector<string> all_obstacle_data, vector<
 	string score_str = "score_ave," + to_string(score_ave);
 	score_data.push_back(score_str);
 
-	sort(begin(score_median), end(score_median));
-	int median_index = score_median.size() / 2;
-	double median = (score_median.size() % 2 == 0
-		? static_cast<double>(score_median[median_index] + score_median[median_index - 1]) / 2
-		: score_median[median_index]);
+	sort(score_median.begin(), score_median.end());
+	double median = score_median[score_median.size() / 2];
 	score_str = "score_median," + to_string(median);
 	score_data.push_back(score_str);
 
 
 	ofstream ofs(".\\" + tra_dir + result_dname + "\\Eo_score.csv");
+	ofs << "name,score" << endl;
 	for (int i = 0; i < score_data.size(); i++) {
 		ofs << score_data[i] << endl;
 	}
@@ -1122,16 +1068,14 @@ vector<string> Ef(string result_dname, vector<vector<string>> tra_data, vector<v
 	string score_str = "score_ave," + to_string(score_ave);
 	score_data.push_back(score_str);
 
-	sort(begin(score_median), end(score_median));
-	int median_index = score_median.size() / 2;
-	double median = (score_median.size() % 2 == 0
-		? static_cast<double>(score_median[median_index] + score_median[median_index - 1]) / 2
-		: score_median[median_index]);
+	sort(score_median.begin(), score_median.end());
+	double median = score_median[score_median.size() / 2];
 	score_str = "score_median," + to_string(median);
 	score_data.push_back(score_str);
 
 
 	ofstream ofs(".\\" + tra_dir + result_dname + "\\Ef_score.csv");
+	ofs << "name,score,overall_ratio" << endl;
 	for (int i = 0; i < score_data.size(); i++) {
 		ofs << score_data[i] << endl;
 	}
@@ -1179,27 +1123,19 @@ vector<string> CE(string result_dname, vector<string> Ed, vector<string> Es, vec
 	string score_str = "score_ave," + to_string(score_ave) + "," + to_string(score_ave_not_bup) + "," + to_string(score_ave_bup);
 	score_data.push_back(score_str);
 
-	sort(begin(score_median), end(score_median));
-	int median_index = score_median.size() / 2;
-	double median = (score_median.size() % 2 == 0
-		? static_cast<double>(score_median[median_index] + score_median[median_index - 1]) / 2
-		: score_median[median_index]);
-	sort(begin(score_median_not_bup), end(score_median_not_bup));
-	median_index = score_median_not_bup.size() / 2;
-	double median_not_bup = (score_median_not_bup.size() % 2 == 0
-		? static_cast<double>(score_median_not_bup[median_index] + score_median_not_bup[median_index - 1]) / 2
-		: score_median_not_bup[median_index]);
-	sort(begin(score_median_bup), end(score_median_bup));
-	median_index = score_median_bup.size() / 2;
-	double median_bup = (score_median_bup.size() % 2 == 0
-		? static_cast<double>(score_median_bup[median_index] + score_median_bup[median_index - 1]) / 2
-		: score_median_bup[median_index]);
+	sort(score_median.begin(), score_median.end());
+	double median = score_median[score_median.size() / 2];
+	sort(score_median_not_bup.begin(), score_median_not_bup.end());
+	double median_not_bup = score_median_not_bup[score_median_not_bup.size() / 2];
+	sort(score_median_bup.begin(), score_median_bup.end());
+	double median_bup = score_median_bup[score_median_bup.size() / 2];
 
 	score_str = "score_median," + to_string(median) + "," + to_string(median_not_bup) + "," + to_string(median_bup);
 	score_data.push_back(score_str);
 
 
 	ofstream ofs(".\\" + tra_dir + result_dname + "\\CE_score.csv");
+	ofs << "name,score_all_section,score_not_BUP_section,score_BUP_section" << endl;
 	for (int i = 0; i < score_data.size(); i++) {
 		ofs << score_data[i] << endl;
 	}
