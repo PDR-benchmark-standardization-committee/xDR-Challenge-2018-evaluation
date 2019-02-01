@@ -4,8 +4,8 @@ Using Visual Studio 2017
 This version is 0.2.  
 
 ## News
-2019/2/1
-Fixed Ed Es caculation method.
+2019/2/1  
+Fixed Ed Es caculation method.  
 2018/12/6  
 Add licenses and references.  
 2018/11/28  
