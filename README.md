@@ -1,9 +1,11 @@
 # xDR Challenge 2018 evaluation tool
 Evaluation source code for [xDR Challenge 2018](https://unit.aist.go.jp/hiri/xDR-Challenge-2018/)  
 Using Visual Studio 2017  
-This version is 0.1.  
+This version is 0.2.  
 
 ## News
+2019/2/1
+Fixed Ed Es caculation method.
 2018/12/6  
 Add licenses and references.  
 2018/11/28  
